@@ -14,7 +14,7 @@ black = "*"
 python_version = "3.9"
 
 [scripts]
-tests = "pytest tests"
-run = "python main.py"
+tests = "python -m pytest ."
+run = "python src/main.py"
 lint = "ruff ."
 fmt = "black ."

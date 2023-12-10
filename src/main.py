@@ -1,4 +1,4 @@
-MAX_FPS = 60
+MAX_FPS = 200
 
 import math
 import pygame
